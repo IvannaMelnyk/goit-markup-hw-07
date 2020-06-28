@@ -1,7 +1,9 @@
 .section.staff {
   background: #f5f4fa;
 }
-
+.list li {
+  justify-content: space-between;
+}
 .staff-list {
   display: flex;
   flex-wrap: nowrap;
@@ -47,9 +49,7 @@
     }
   }
 }
-.staff-list {
-  margin: 0;
-}
+
 .staff-icon li {
   display: inline-block;
   margin: 0;
@@ -74,8 +74,4 @@
     background-color: $accentColor;
     fill: $whiteColor;
   }
-}
-.staff-icon {
-  margin-left: 32px;
-  margin-right: 31px;
 }

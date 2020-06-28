@@ -595,6 +595,12 @@ img {
   background: #f5f4fa;
 }
 
+.list li {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .staff-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -641,10 +647,6 @@ img {
   margin-right: 0;
 }
 
-.staff-list {
-  margin: 0;
-}
-
 .staff-icon li {
   display: inline-block;
   margin: 0;
@@ -677,11 +679,6 @@ img {
 .team-icon:hover {
   background-color: #2196f3;
   fill: #ffffff;
-}
-
-.staff-icon {
-  margin-left: 32px;
-  margin-right: 31px;
 }
 
 .customer-list {
@@ -814,6 +811,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 10px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -825,10 +823,6 @@ footer {
 
 .footer-icon:hover {
   background-color: #2196f3;
-}
-
-.list li {
-  margin-right: 10px;
 }
 
 .form-mail {
